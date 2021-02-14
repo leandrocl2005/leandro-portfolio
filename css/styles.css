@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
-  line-height: 2em;
+  line-height: 28px;
   letter-spacing: 0.3px;
   color: var(--p-color);
   text-align: justify;
