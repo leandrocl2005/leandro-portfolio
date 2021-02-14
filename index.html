@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leandro Cruvinel</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600&family=Rubik:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#contacts">Contatos</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h1>
+      <span>Olá, eu sou o</span>
+      <strong>Leandro Cruvinel</strong>
+      <span>e este é meu</span>
+      <strong>portfólio</strong>
+    </h1>
+  </section>
+
+  <section id="about">
+    <h5>Quem sou eu?</h5>
+    <div class="about-container">
+
+      <div class="about-image">
+        <img src="./assets/me.jpg" alt="Leandro Cruvinel" />
+      </div>
+
+      <p>
+        Bacharel, mestre e doutor em Matemática; graduado em Sistemas para Internet, MBA em Ciência de Dados e Big Data
+        e professor na UFTM. Adoro participar de hackathons e já ganhei 3, sendo dois promovidos pela
+        Algar e um pela Serasa Experian. Busco na educação, ciência e tecnologia soluções que ajudem as pessoas a ter
+        uma vida melhor! \(ᵔᵕᵔ)/
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h5>Meus projetos</h5>
+
+
+    <div class="container">
+      <a target="_blank" href="https://imersao-next-alura-01-2021.vercel.app/" class="card">
+        <div class="image-container">
+          <img
+            src="https://images.unsplash.com/photo-1533050487297-09b450131914?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+            alt="Cidade de Tokyo" />
+        </div>
+        <h6>Tokyo Rush</h6>
+        <p>Quiz feito em React Next. Descubra o quanto você sabe sobre Tokyo.</p>
+      </a>
+      <a target="_blank" href="https://portfolio-cruvinel.herokuapp.com/oscars" class="card">
+        <div class="image-container">
+          <img
+            src="https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=740&q=80"
+            alt="Website de trailers de filmes" />
+        </div>
+        <h6>Oscar Trailers</h6>
+        <p>Site gerado com Python via scrapy e as apis OMDb e TMDb.</p>
+      </a>
+      <a target="_blank" href="https://github.com/leandrocl2005/Curso-basico-de-Python-para-cientistas-de-dados"
+        class="card">
+        <div class="image-container">
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=702&q=80"
+            alt="Dashboard no computador" />
+        </div>
+        <h6>Curso de ML</h6>
+        <p>Curso completo de Machine Learning com Python para iniciantes.</p>
+      </a>
+      <a target="_blank" href="https://leandrocl2005.github.io/sliders-trigonometria-bokeh/" class="card">
+        <div class="image-container">
+          <img
+            src="https://images.unsplash.com/photo-1454123253751-1fe2b9e0c10d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+            alt="project" />
+        </div>
+        <h6>App Senoidal</h6>
+        <p>App para explorar frequência e amplitude da função seno.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="contacts">
+
+    <h5>Contatos</h5>
+
+    <div class="contacts-container">
+      <form action="https://formspree.io/f/mrgoveyg" method="POST">
+        <div class="input-container">
+          <label for="name">Nome e sobrenome</label>
+          <input type="text" name="name" id="name" placeholder="Seu nome" />
+        </div>
+        <div class="input-container">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="Seu e-mail" />
+        </div>
+        <div class="text-area-container">
+          <label for="message">Mensagem</label>
+          <textarea rows="5" name="message" id="message" placeholder="Sua mensagem"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div class="contacts-content">
+
+        <div class="say-hello">
+          <h6>Diga oi</h6>
+          <p>(34) 8442-6868</p>
+        </div>
+
+        <div class="email-plus-links">
+          <p>
+            <a href="mailto:leandro.lemes@uftm.edu.com" class="contacts-email">
+              <i class="fas fa-arrow-right custom-icon"></i>
+              leandro.lemes@uftm.edu.com
+            </a>
+          </p>
+
+          <ul>
+            <li><a target="_blank" href="https://leandrocruvinel.medium.com/" rel="noopener" class="fab fa-medium"></a>
+            </li>
+            </li>
+            <li><a target="_blank" href="https://github.com/leandrocl2005" rel="noopener" class="fab fa-github"></a>
+            </li>
+            <li><a target="_blank" href="https://www.instagram.com/leandro.cruvinel" rel="noopener"
+                class="fab fa-instagram"></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/leandrocl2005" rel="noopener"
+                class="fab fa-facebook"></a>
+            <li><a target="_blank" href="https://www.linkedin.com/in/leandrolemes/" rel="noopener"
+                class="fab fa-linkedin"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <button onclick="toTop()" id="to-top-btn"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
